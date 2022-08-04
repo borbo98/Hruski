@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Hruski",
+    "slug": "hruski",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/load.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#f58c5f"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#f58c5f"
+      },
+      "package": "com.bor.bogozalec.hruski"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
